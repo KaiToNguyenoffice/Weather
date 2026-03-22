@@ -107,5 +107,3 @@ weather_forecast/
 - Linear Regression
 - Random Forest Regressor
 - GBT Regressor
-
-# Weather
