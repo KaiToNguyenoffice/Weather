@@ -1,0 +1,30 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & artifacts (large / local)
+data/WEATHER-5K/
+checkpoints_weather5k/
+*.parquet
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Env secrets
+.env
+.env.*
+
+# Spark / local Hadoop winutils (optional; bỏ comment nếu muốn commit bản tối thiểu)
+# hadoop/
